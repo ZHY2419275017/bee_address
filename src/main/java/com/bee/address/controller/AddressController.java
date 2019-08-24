@@ -49,6 +49,11 @@ public class AddressController {
 		}
 		
 	}
+	
+	@GetMapping(value="/selectAddressById")
+	public MallAddress selectAddressById(Integer id){	
+		return addressService.selectAddressById(id);
+	}
 	/**
 	 * 新增收货地址
 	 * @param mallAddress

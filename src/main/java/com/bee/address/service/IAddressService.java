@@ -14,4 +14,6 @@ public interface IAddressService {
 	String delectAddress(Integer id);
     //更新收货地址
 	String updateAddress(MallAddress mallAddress);
+	//根据主键id查地址
+	MallAddress selectAddressById(Integer id);
 }

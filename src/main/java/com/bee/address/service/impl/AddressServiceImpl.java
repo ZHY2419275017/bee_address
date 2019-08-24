@@ -40,4 +40,9 @@ public class AddressServiceImpl implements IAddressService {
 		return (result>0?"success":"error");
 	}
 
+	@Override
+	public MallAddress selectAddressById(Integer id) {		
+		return addressMapper.selectByPrimaryKey(id);
+	}
+
 }
