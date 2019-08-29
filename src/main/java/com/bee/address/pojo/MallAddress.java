@@ -49,15 +49,19 @@ public class MallAddress {
         this.receiverName = receiverName == null ? null : receiverName.trim();
     }
 
-    public String getReceiverMobile() {
-        return receiverMobile;
-    }
+  
 
-    public void setReceiverMobile(String receiverMobile) {
-        this.receiverMobile = receiverMobile == null ? null : receiverMobile.trim();
-    }
+   
 
-    public String getReceiverProvince() {
+	public String getReceiverMobile() {
+		return receiverMobile;
+	}
+
+	public void setReceiverMobile(String receiverMobile) {
+		this.receiverMobile = receiverMobile;
+	}
+
+	public String getReceiverProvince() {
         return receiverProvince;
     }
 

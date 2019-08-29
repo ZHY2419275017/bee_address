@@ -68,9 +68,6 @@
       <if test="receiverName != null" >
         receiver_name = #{receiverName,jdbcType=VARCHAR},
       </if>
-      <if test="receiverPhone != null" >
-        receiver_phone = #{receiverPhone,jdbcType=VARCHAR},
-      </if>
       <if test="receiverMobile != null" >
         receiver_mobile = #{receiverMobile,jdbcType=VARCHAR},
       </if>
